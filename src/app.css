@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply m-0 p-0 box-border overflow-x-hidden bg-bg text-white font-sans;
+  scroll-behavior: smooth;
+}
