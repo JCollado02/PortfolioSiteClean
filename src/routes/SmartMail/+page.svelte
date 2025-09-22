@@ -135,11 +135,17 @@
       <h2 class="text-4xl sm:text-5xl font-semibold gradient-text">Video Demo & Conclusion</h2>
     </div>
     <div class="video-container rounded-xl overflow-hidden shadow-2xl max-w-3xl mx-auto mb-8">
-      <video controls class="w-full">
-        <source src="/videos/videoDemo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <iframe
+        width="100%"
+        height="480"
+        src="https://www.youtube.com/embed/w23TEuiEV24"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
     </div>
+
     <p class="text-lg text-slate-200 leading-8">
       In our live demo at Baldwin Wallace, the system successfully detected motion,
       unlocked the mailbox, logged the delivery in MariaDB, and updated the web dashboard.
