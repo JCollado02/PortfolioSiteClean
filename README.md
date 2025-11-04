@@ -6,7 +6,7 @@ The site showcases my projects, technical background, and ways to contact me.
 ---
 
 ## Live Site!
-[Link Text](https://jcolladodev.com)
+[View the Live Site!](https://jcolladodev.com)
 
 ## Tech Stack
 - SvelteKit  
